@@ -40,7 +40,7 @@ public class Main {
 
             System.out.println("Lista de Retângulos");
             for (Retangulo retangulo : retangulos) ;
-            System.out.println(.calcularArea());
+            System.out.println(Retangulo.calcularArea());
 
             Retangulo maiorArea = MaiorRetangulo.encontrarMaiorArea(retangulos);
             Retangulo maiorPerimetro = MaiorRetangulo.encontraMaiorPerimetro(retangulos);
